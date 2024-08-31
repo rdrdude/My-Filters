@@ -7,6 +7,9 @@
 
 ||www.gstatic.com/youtube/img/promos/
 
+! Prevent the double clicking on a video
+youtube.com##+js(aeld, dblclick)
+
 youtube.com###related #thumbnail.ytd-rich-grid-media:style(margin-right: 8px!important;height: 94px!important;width: 168px!important;min-width: 168px!important;)
 youtube.com###related #avatar-link.ytd-rich-grid-media, #related #attached-survey.ytd-rich-grid-media, #related .ytd-rich-shelf-renderer .button-container.ytd-rich-shelf-renderer:style(display:none!important;)
 youtube.com###related #dismissible.ytd-rich-grid-media:style(display:flex;flex-direction:row!important;)
